@@ -65,6 +65,10 @@ const LLM_MODELS: Record<AIProviderType, ModelConfig[]> = {
       name: "gpt-4.1",
       createAi: createOpenAI,
     },
+    {
+      name: "gpt-5-2025-08-07",
+      createAi: createOpenAI,
+    },
     // Google stable models https://ai.google.dev/gemini-api/docs/models/gemini
     {
       name: "gemini-2.0-flash-001",
